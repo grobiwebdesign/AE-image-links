@@ -1,0 +1,65 @@
+.who{
+	background-image:url("../imgs/listen.jpg");
+	}
+
+.clients{
+	background-image:url("../imgs/workplace.jpg");
+	}
+
+.special{
+	background-image:url("../imgs/way.jpg");
+	}
+
+.opp{
+	background-image:url("../imgs/person.jpg");
+	}
+
+.who, .clients, .special, .opp{
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	opacity:0.5;
+	min-height:400px;
+	}
+	
+.images{
+	height:400px;
+	@include add-background($grey)
+	}
+	
+
+
+	
+/*Font Awesome Icons*/
+.social-media a:hover{
+	width:80px;
+	height:80px;
+	transform: scale(1.2);
+	}
+	
+.social-media a i:hover{
+	padding:25px 27px;
+	}
+
+.social-media a{
+	display:block;
+	float:left;
+	width:70px;
+	height:70px;
+	border-radius:50px;
+	margin-right:25px;
+	@include add-background($white)
+	transition-duration: 0.7s;
+    transition-property: transform;
+	}
+
+	
+.social-media a i{
+	padding:20px 22px;
+	font-size:$icon-font-size;
+	}
+	
+
+.slid{
+	padding:12px;}

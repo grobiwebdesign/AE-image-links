@@ -1,0 +1,49 @@
+.logo{
+	max-width:100px;
+	height:auto;
+	}
+
+.images a{
+	color:$white;}
+	
+.images a:hover{
+	color:$purple;}		
+
+p{
+	text-align:justify;}
+	
+
+/*facebook icon only*/
+	
+.fa-facebook{
+	margin-left:3px;
+	}
+	
+/*sticky footer*/
+
+html{
+	position:relative;
+	min-height:100%;
+	}
+	
+body{
+	margin: 0 0 600px;
+	}
+	
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;}
+	
+h1, h2{
+	padding:$padding;
+	text-align:$center;}
+	
+.images h2{
+	padding:$image-padding;}
+	
+@media screen and (max-width: 600px){
+body{
+	margin: 0 0 1000px;
+	}
+}
